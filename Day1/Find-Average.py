@@ -4,7 +4,10 @@ while True:
     if input_number=='done':
         break
     else:
-        numbers.append(int(input_number))
+        try: 
+            numbers.append(int(input_number))
+        except:
+            print("Invlaid input!!!")
 
 add_numbers=sum(numbers)                #sum of entered numbers
 print('The sum of entered numbers is: ', add_numbers)
