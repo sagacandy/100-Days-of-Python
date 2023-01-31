@@ -23,4 +23,3 @@ if q3==a3[1]:
 else:
     s3=s2
     print(f"Your answer is wrong, You have won Rs. {s3} ")
-
