@@ -6,4 +6,4 @@
 # print(dir(m))
 
 from test import mul
-print(mul(10,20))
+print(mul(10, 20))
